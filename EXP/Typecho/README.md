@@ -11,7 +11,7 @@ Python 2.7
 ```
 Usage:  python typecho_exp.py [vulnerable url]
 	 	
-		vulnerable url  www.example.com/install.php
+	vulnerable url  www.example.com/install.php
 
 python typecho_exp.py www.example.com/install.php
 
