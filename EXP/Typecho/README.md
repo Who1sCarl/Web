@@ -15,7 +15,7 @@ Usage:  python typecho_exp.py [vulnerable url]
 
 python typecho_exp.py www.example.com/install.php
 
-the evil page: www.example.com/0ops
+the evil page: www.example.com/0ops.php
 password: pos2
 ```
 
