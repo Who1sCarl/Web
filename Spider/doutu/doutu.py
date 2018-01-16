@@ -32,7 +32,7 @@ def main():
 	print "[+]  " + "Download the picture ..."
 	time.sleep(3)
 	url = 'http://www.doutula.com/article/list/?page={}'
-	for i in range(1,10):
+	for i in range(1,10):             #get pictures from page one to ten
 		htmlCon = getHtml(url.format(i))
 		getImage_url(htmlCon)
 if __name__ == '__main__':
